@@ -1,0 +1,41 @@
+QUESTION 2: HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Company page</title>
+  </head>
+  <body>
+    <p>Welcome! Here you can find following things:</p>
+    <ul>
+      <li><a href="#logo"><em>Company's logo</em></a></li>
+      <li><a href="#employees">List of employees</a></li>
+    </ul>
+    <h1>Company's logo</h1>
+    <p>Company uses following logos:</p>
+    <ul>
+      <li>New logo:</li><img src="new_logo.gif" alt=""/>
+      <li>Old logo:</li><img src="old_logo.gif" alt=""/>
+    </ul>
+	</body>
+</html>
+======================================================</br>
+QUESTION 3: Javascript original codestarter 
+function setup() {
+  //  upload the code to do this in the interview form please
+}
+// Example case. 
+document.body.innerHTML = `
+<div class="image">
+  <img src="https://goo.gl/kjzfbE" alt="First">
+  <button class="remove">X</button>
+</div>
+<div class="image">
+  <img src="https://goo.gl/d2JncW" alt="Second">
+  <button class="remove">X</button>
+</div>`;
+setup();
+document.getElementsByClassName("remove")[0].click();
+console.log(document.body.innerHTML);
+
+
